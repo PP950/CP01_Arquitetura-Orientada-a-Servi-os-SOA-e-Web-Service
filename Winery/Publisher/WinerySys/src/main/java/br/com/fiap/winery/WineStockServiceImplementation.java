@@ -15,6 +15,6 @@ public class WineStockServiceImplementation implements WineStockService{
 
     @Override
     public String placeOrder(String name, int quantity) {
-        return "Pedido Confirmado!";
+        return "Pedido Confirmado! Você comprou " + quantity + " garrafa(s) de " + name + ".";
     }
 }
